@@ -1,27 +1,22 @@
 // Question no 01
 
-// let answers = prompt("Enter Your Value")
-// let value1 = "A";
-// let value2 = "Z";
-// let value3 = "z";
-// let value4 = "a";
+// var inputChar = prompt("Enter a character:");
 
-// if(answers == value1){
-//     console.log(`${value1} = 65`)
-// }
-// else if(answers == value2){
-//     console.log(`${value2} = 90`)
-// }
-// else if(answers == value3){
-//     console.log(`${value3} = 122`)
-// }
-// else if(answers == value4){
-//     console.log(`${value4} = 97`)
-// }
-// else{
-//     console.log("wrong value")
+// var charCode = inputChar.charCodeAt(0);
+
+// if (!isNaN(inputChar)) {
+//     console.log("The input '" + inputChar + "' is a number.");
 // }
 
+// else if (charCode >= 65 && charCode <= 90) {
+//     console.log("The input '" + inputChar + "' is an uppercase letter.");
+// }
+// else if (charCode >= 97 && charCode <= 122) {
+//     console.log("The input '" + inputChar + "' is a lowercase letter.");
+// }
+// else {
+//     console.log("The input '" + inputChar + "' is not a number or a letter.");
+// }
 
 // Question no 02
 
