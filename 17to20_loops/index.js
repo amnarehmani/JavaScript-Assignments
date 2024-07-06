@@ -1,15 +1,15 @@
 // 1. Declare and initialize an empty multidimensional array.
 // (Array of arrays)
 
-let arr = []
+// let arr = []
 
 // 2.Declare and initialize a multidimensional array representing the following matrix:
 
-let myArr = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
-  ];
+// let myArr = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9],
+//   ];
   
 //   3. Write a program to print numeric counting from 1 to 10.
 
@@ -70,4 +70,11 @@ for(let i= 10; i>=1; i--){
 document.write("<h1>even</h1>")
 for(let i= 0; i<= 20; i +=2 ){
     document.write(i ,"</br>")
+}
+
+document.write("<h1>odd</h1>")
+for (let i = 1; i <= 19; i++) {
+  if (i % 2 !== 0) {
+    document.write(i, " ");
+  }
 }
